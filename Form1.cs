@@ -15,16 +15,21 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            //Con esta linea de codigo se cambia el simbolo del cursor para que tenga la forma del objeto seleccionado
             Bitmap M = new Bitmap(Properties.Resources.Puntero3);
             Cursor r = new Cursor(M.GetHicon());
             this.Cursor = r;
         }
+        //Declaramos la variable points, con la cual haremos el contador, será llamada a la acción más adelante
         int points;
+        
 
+        //Creamos el bloque Ballons dentro del cual le diremos en que dirección y a que velocidad se moveran los globos
         void Ballons()
         {
             if (G_1.Top < 0)
             {
+                //Con este if decimos el elemento que irá en la pantalla y la dirección  en la cual irá
                 G_1.Top = 550;
                 G_1.Image = Properties.Resources.Globo2;
 
@@ -59,6 +64,7 @@ namespace WindowsFormsApp1
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            //Inicializamos el contador, cada que le demos click a los globos estos sumarán puntos 
             points++;
             Points.Text = "Points : " + points;
 
