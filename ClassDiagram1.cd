@@ -3,7 +3,7 @@
   <Class Name="WindowsFormsApp1.Form1">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AARAIACAACAAgAAAAICAEAACAAAAIAAAAAQAAAAAAAA=</HashCode>
+      <HashCode>AARAIAKAAGAAgCAAAJCgEhACEAAAIAAIARQAAAIEAAA=</HashCode>
       <FileName>Form1.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -15,9 +15,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="WindowsFormsApp1.Properties.Resources">
-    <Position X="0.5" Y="5.75" Width="1.5" />
+    <Position X="2.5" Y="6" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAQAACAEAAAAAAAAABEAAAAQAAEAAAAAAAAACAAIA=</HashCode>
+      <HashCode>AAAAQAACEEAAAAAAAAABMAAAAQAAEAgAAAAAAACAAIA=</HashCode>
     </TypeIdentifier>
   </Class>
   <Class Name="WindowsFormsApp1.Properties.Settings">

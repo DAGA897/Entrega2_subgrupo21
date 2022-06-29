@@ -63,6 +63,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cuadro {
+            get {
+                object obj = ResourceManager.GetObject("cuadro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap globo {
             get {
                 object obj = ResourceManager.GetObject("globo", resourceCulture);
@@ -76,6 +86,26 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap Globo2 {
             get {
                 object obj = ResourceManager.GetObject("Globo2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Latidos {
+            get {
+                object obj = ResourceManager.GetObject("Latidos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nubes {
+            get {
+                object obj = ResourceManager.GetObject("Nubes", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
